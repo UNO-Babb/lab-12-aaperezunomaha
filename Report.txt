@@ -1,44 +1,45 @@
-Name:
+Name:PEREZ AA
 
 Number of elements:
 
-Bubble Sort
-Sorted:
-Reversed:
-Random:
+Bubble Sort 
+Sorted:12000 elements
+Reversed:8.88831SECONDS
+Random:6.86279 seconds
 
 Bubble Sort Early Exit
-Sorted:
-Reversed:
-Random:
+Sorted:12000 elements
+Reversed:9.03024 seconds
+Random:6.96270 seconds
 
 Selection Sort
-Sorted:
-Reversed:
-Random:
+Sorted:12000 elements
+Reversed:2.86216 seconds
+Random:3.05528 seconds
 
 Insertion Sort
-Sorted:
-Reversed:
-Random:
+Sorted:12000 elements
+Reversed:5.42471 seconds
+Random:3.05922 seconds
 
 Merge Sort
-Sorted:
-Reversed:
-Random:
+Sorted:12000 elements.
+Reversed:0.02049 seconds
+Random:0.04178 seconds
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
-
+Using Bubble sort Early Exit on a reversed list
 
 2) The first 3 sorts have the same runtime of O(n^2). Why were the times different? Why would one be more efficient than the others?
-
+Selection sort is the most efficient here due to the num of sorted elements it has a set time and will continue untlil its finished unlike bubble sort or 
 
 3) Why was merge sort so much more efficient?
-
+due to recursion it splits the list in half and each is sorted making it faster. 
 
 4) The built-in sorting technique for most programming languages is known as TimSort.
 This is a merge sort until the arrays have fewer than 10 elements, then it does an insertion sort. Why would this be useful?
 
 
 5) What issues can you see with a recursive sorting technique like merge sort?
+the main issue is that recursive splits the list in to two and then sorts them and then groups them together. this is basically faster but its main issue would be at the cost of a lot of ram usage. 
